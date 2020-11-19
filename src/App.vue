@@ -1,7 +1,10 @@
 <template>
   <div id="nav">
     <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <router-link to="/about">About</router-link> |
+    <!-- La ruta que se configura en el link debe de existir en 
+    el index.js del router -->
+    <router-link to="/blog">Blog</router-link>
   </div>
   <router-view/>
 </template>
